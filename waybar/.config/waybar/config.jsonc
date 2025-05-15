@@ -29,7 +29,7 @@
 
     "network":{
         "format-wifi": "     {essid}",
-        "on-click": "ghostty -e nmtui"
+        "on-click": "kitty nmtui"
     },
     "hyprland/language":{
         "format": "{short}",
