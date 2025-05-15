@@ -1,0 +1,29 @@
+@import url("./colors.css");
+* {
+    border: none;
+    border-radius: 10px;
+    font-family: JetBrainsMono Nerd Font;
+    font-size: 18px;
+    min-height: 20px;
+    padding: 2px;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+#workspaces button {
+    padding: 0px 10px;
+    color: @background;
+}
+
+#workspaces button.active{
+    background: @background;
+    color: @foreground;
+}
+
+#clock,#network,#language,#wireplumber,#cpu,#memory{
+    margin: 0px 2px;
+    border-radius: 10px;
+    padding: 0px 10px;
+}

@@ -1,0 +1,51 @@
+{
+    "layer": "top",
+    "position": "top",
+    "reload_style_on_change": true,
+    "modules-left": ["clock", "cpu","memory","tray"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["network", "hyprland/language", "wireplumber"],
+
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "on-click": "activate",
+        "format-icons": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+        },
+        "persistent-workspaces": {
+            "*": [ 1,2,3,4,5,6 ]
+        }
+    },
+    
+    "tray":{
+        "icon-size": 21,
+        "spacing": 10,
+    },
+
+    "network":{
+        "format-wifi": "     {essid}",
+        "on-click": "ghostty -e nmtui"
+    },
+    "hyprland/language":{
+        "format": "{short}",
+    },
+    "wireplumber":{
+        "format": "{volume}   {icon}",
+        "format-muted": "",
+        "format-icons": ["", "", ""],
+        "on-click": "pwvucontrol"
+    },
+    "cpu": {
+        "interval": 15,
+        "format": "    {}%",
+    },
+    "memory": {
+        "interval": 30,
+        "format": "    {}%",
+    },
+}
