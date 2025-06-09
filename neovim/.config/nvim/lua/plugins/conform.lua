@@ -6,6 +6,8 @@ return {
 				lua = { "stylua" },
 				python = { "black" },
 				json = { "jq" },
+				html = { "prettier" },
+				css = { "prettier" },
 			},
 			format_on_save = {
 				timeout_ms = 500,
