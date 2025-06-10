@@ -28,17 +28,25 @@
     },
 
     "network":{
-        "format-wifi": "Network: {essid}",
-        "on-click": "kitty nmtui"
+        "format-wifi": " ",
+        "format-ethernet": "{ipaddr}/{cidr} 󰊗",
+        "format-disconnected": "", //An empty format will hide the module.
+        "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+        "tooltip-format-disconnected": "Disconnected",
+        "max-length": 50,
+        "on-click": "kitty nmtui",
     },
     "hyprland/language":{
-        "format": "Layout: {short}",
+        "format": "  {short}",
     },
     "wireplumber":{
-        "format": "Volume: {volume}",
+        "format": "{icon} {volume}",
+        "format-icons": {
+            "default": ["", "", " "]
+        },
         "on-click": "pwvucontrol"
     },
     "clock":{
         "format": "{:%d-%m-%Y | %H:%M}",
-    }
+    },
 }
