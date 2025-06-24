@@ -11,6 +11,7 @@ return {
 		vim.lsp.enable("emmet_ls")
 		vim.lsp.enable("cssls")
 		vim.lsp.enable("html")
+		vim.lsp.enable("rust_analyzer")
 
 		vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 		vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})

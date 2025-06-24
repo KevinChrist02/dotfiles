@@ -8,6 +8,7 @@ return {
 				json = { "jq" },
 				html = { "prettier" },
 				css = { "prettier" },
+				rust = { "rustfmt" },
 			},
 			format_on_save = {
 				timeout_ms = 500,
