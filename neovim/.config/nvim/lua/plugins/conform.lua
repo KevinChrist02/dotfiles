@@ -9,6 +9,8 @@ return {
 				html = { "prettier" },
 				css = { "prettier" },
 				rust = { "rustfmt" },
+				ruby = { "rubocop" },
+				eruby = { "erb-format" },
 			},
 			format_on_save = {
 				timeout_ms = 500,
