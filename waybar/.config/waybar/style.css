@@ -1,33 +1,34 @@
 @import url("./frappe.css");
+
 * {
-  border: none;
-  font-family: FiraCode Nerd Font;
-  font-size: 18px;
-  min-height: 20px;
-  padding: 2px;
+    border: none;
+    font-family: FiraCode Nerd Font;
+    font-size: 18px;
+    min-height: 20px;
+    padding: 2px;
 }
 
 window#waybar {
-  background: transparent;
+    background: transparent;
 }
 
 #workspaces button {
-  padding: 0px 8px;
-  color: @text;
-  border-radius: 12px;
+    padding: 0px 10px;
+    color: @base;
+    border-radius: 12px;
 }
 
 #workspaces button.active {
-  background: @peach;
-  color: @base;
+    background: @teal;
 }
 
 #clock,
 #network,
 #language,
 #wireplumber {
-  margin: 0px 2px;
-  border-radius: 50px;
-  padding: 0px 20px;
-  color: @text;
+    margin: 0px 2px;
+    border-radius: 50px;
+    padding: 0px 20px;
+    color: @base;
+    background: @teal;
 }
