@@ -25,6 +25,7 @@ return {
 				time_format = "%H:%M",
 				substitutions = {},
 			},
+			new_notes_location = "notes_subdir",
 		})
 	end,
 }
