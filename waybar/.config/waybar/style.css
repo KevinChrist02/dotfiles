@@ -1,10 +1,10 @@
-@import url("./frappe.css");
+@import url("./gruvbox.css");
 
 * {
     border: none;
     font-family: FiraCode Nerd Font;
-    font-size: 18px;
-    min-height: 20px;
+    font-size: 16px;
+    min-height: 22px;
     padding: 2px;
 }
 
@@ -15,11 +15,11 @@ window#waybar {
 #workspaces button {
     padding: 0px 10px;
     color: @base;
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
 #workspaces button.active {
-    background: @teal;
+    background: @aqua;
 }
 
 #clock,
@@ -27,8 +27,8 @@ window#waybar {
 #language,
 #wireplumber {
     margin: 0px 2px;
-    border-radius: 50px;
+    border-radius: 8px;
     padding: 0px 20px;
     color: @base;
-    background: @teal;
+    background: @aqua;
 }
