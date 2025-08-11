@@ -1,8 +1,8 @@
 return {
-	"catppuccin/nvim",
-	name = "catppuccin",
+	"craftzdog/solarized-osaka.nvim",
+	lazy = false,
 	priority = 1000,
 	config = function()
-		vim.cmd("colorscheme catppuccin-latte")
+		vim.cmd("colorscheme solarized-osaka")
 	end,
 }

@@ -1,6 +1,6 @@
-theme=catppuccin-latte
+theme=GruvboxDarkHard
 font-size=16
 font-family= "FiraCode Nerd Font"
-background-opacity= 0.4
+background-opacity= 0.5
 window-padding-x = 6
 window-padding-y = 6

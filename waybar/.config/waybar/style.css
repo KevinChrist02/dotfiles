@@ -1,4 +1,4 @@
-@import url("./latte.css");
+@import url("./gruvbox.css");
 
 * {
     border: none;
@@ -14,12 +14,14 @@ window#waybar {
 
 #workspaces button {
     padding: 0px 10px;
-    color: @text;
-    border-radius: 8px;
+    margin: 0 4px;
+    color: @dark;
+    border-radius: 24px;
+    background: @aqua;
 }
 
 #workspaces button.active {
-    background: @lavender;
+    background: @base;
 }
 
 #clock,
@@ -29,6 +31,6 @@ window#waybar {
     margin: 0px 2px;
     border-radius: 8px;
     padding: 0px 20px;
-    color: @text;
-    background: @lavender;
+    color: @dark;
+    background: @aqua;
 }
