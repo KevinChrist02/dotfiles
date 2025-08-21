@@ -1,30 +1,36 @@
-@import url("./gruvbox.css");
-
 window {
     margin: 0px;
-    border-radius: 12px;
-    background: transparent;
+    background-color: #faf4ed;
+    border-radius: 0px;
+    border: 1px solid #b4637a;
+    color: #575279;
+    font-family: 'JetBrainsMono Nerd Font';
+    font-size: 18px;
 }
 
 #input {
     margin: 5px;
+    border-radius: 0px;
     border: none;
-    color: #ebdbb2;
-    background-color: #282828;
+    border-radius: 0px;
+    ;
+    color: #b4637a;
+    background-color: #f2e9e1;
+
 }
 
 #inner-box {
     margin: 5px;
     border: none;
-    border-radius: 12px;
-    background-color: #282828;
+    background-color: #f2e9e1;
+    color: #faf4ed;
+    border-radius: 0px;
 }
 
 #outer-box {
-    margin: 5px;
+    margin: 15px;
     border: none;
-    border-radius: 12px;
-    background-color: #282828;
+    background-color: #faf4ed;
 }
 
 #scroll {
@@ -35,19 +41,21 @@ window {
 #text {
     margin: 5px;
     border: none;
-    color: #ebdbb2;
+    color: #575279;
 }
-
-#entry.activatable #text {
-    color: #ebdbb2;
-}
-
 
 #entry:selected {
-    background-color: #427b58;
-    border-radius: 8px;
+    background-color: #b4637a;
+    color: #faf4ed;
+    border-radius: 0px;
+    ;
+    outline: none;
 }
 
-#entry:selected #text {
-    font-weight: bold;
+#entry:selected * {
+    background-color: #b4637a;
+    color: #faf4ed;
+    border-radius: 0px;
+    ;
+    outline: none;
 }

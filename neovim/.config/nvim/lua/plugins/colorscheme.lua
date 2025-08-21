@@ -1,8 +1,8 @@
 return {
-	"craftzdog/solarized-osaka.nvim",
+	"rose-pine/neovim",
 	lazy = false,
 	priority = 1000,
 	config = function()
-		vim.cmd("colorscheme solarized-osaka")
+		vim.cmd("colorscheme rose-pine-dawn")
 	end,
 }
