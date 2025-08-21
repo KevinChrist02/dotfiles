@@ -20,15 +20,26 @@ window#waybar {
     background: @base;
 }
 
-#workspaces button.active {
-    background: @foam;
-}
-
 #clock,
 #network,
 #language,
 #wireplumber {
     padding: 0px 20px;
-    color: @text;
     background: @base;
+}
+
+#clock {
+    color: @foam;
+}
+
+#network {
+    color: @rose;
+}
+
+#language {
+    color: @pine;
+}
+
+#wireplumber {
+    color: @iris;
 }
