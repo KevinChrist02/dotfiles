@@ -1,8 +1,8 @@
-@import url("./gruvbox.css");
+@import url("./rose-pine-dawn.css");
 
 * {
     border: none;
-    font-family: FiraCode Nerd Font;
+    font-family: JetBrainsMono Nerd Font;
     font-size: 16px;
     min-height: 22px;
     padding: 2px;
@@ -15,22 +15,20 @@ window#waybar {
 #workspaces button {
     padding: 0px 10px;
     margin: 0 4px;
-    color: @dark;
+    color: @text;
     border-radius: 24px;
-    background: @aqua;
+    background: @base;
 }
 
 #workspaces button.active {
-    background: @base;
+    background: @foam;
 }
 
 #clock,
 #network,
 #language,
 #wireplumber {
-    margin: 0px 2px;
-    border-radius: 8px;
     padding: 0px 20px;
-    color: @dark;
-    background: @aqua;
+    color: @text;
+    background: @base;
 }

@@ -23,12 +23,12 @@
     },
     
     "tray":{
-        "icon-size": 21,
-        "spacing": 10,
+        "icon-size": 20,
+        "spacing": 20,
     },
 
     "network":{
-        "format-wifi": " ",
+        "format-wifi": "  {signalStrength}%",
         "format-ethernet": "{ipaddr}/{cidr} 󰊗",
         "format-disconnected": "", //An empty format will hide the module.
         "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
@@ -47,6 +47,6 @@
         "on-click": "pwvucontrol"
     },
     "clock":{
-        "format": "{:%d-%m-%Y | %H:%M}",
+        "format": "{:%d/%m  | %H:%M  }",
     },
 }
