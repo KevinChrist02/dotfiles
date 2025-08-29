@@ -1,4 +1,4 @@
-@import url("./rose-pine-dawn.css");
+@import url("./gruvbox.css");
 
 * {
     border: none;
@@ -13,33 +13,16 @@ window#waybar {
 }
 
 #workspaces button {
-    padding: 0px 10px;
+    padding: 0px 4px;
     margin: 0 4px;
-    color: @text;
-    border-radius: 24px;
-    background: @base;
+    color: @base;
 }
+
 
 #clock,
 #network,
 #language,
 #wireplumber {
     padding: 0px 20px;
-    background: @base;
-}
-
-#clock {
-    color: @foam;
-}
-
-#network {
-    color: @rose;
-}
-
-#language {
-    color: @pine;
-}
-
-#wireplumber {
-    color: @iris;
+    color: @base
 }

@@ -4,6 +4,7 @@ return {
 		require("lint").linters_by_ft = {
 			python = { "ruff" },
 			go = { "golangci-lint" },
+			markdown = { "markdownlint" },
 		}
 	end,
 }

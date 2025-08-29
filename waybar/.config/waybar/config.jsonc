@@ -3,11 +3,23 @@
     "position": "top",
     "reload_style_on_change": true,
     "modules-left": ["clock","tray"],
-    "modules-center": ["hyprland/window"],
+    "modules-center": ["hyprland/workspaces"],
     "modules-right": ["network", "hyprland/language", "wireplumber"],
     
-    "hyprland/window":{
-        "format": "{title}",
+    "hyprland/workspaces":{
+        "format": "{icon}",
+        "on-click": "activate",
+        "format-icons": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+        },
+        "persistent-workspaces": {
+            "*": 6,
+        }
     },
 
     "tray":{
