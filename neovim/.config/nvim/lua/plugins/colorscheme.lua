@@ -1,8 +1,8 @@
 return {
-	"ellisonleao/gruvbox.nvim",
+    "EdenEast/nightfox.nvim",
 	lazy = false,
 	priority = 1000,
 	config = function()
-		vim.cmd.colorscheme("gruvbox")
+		vim.cmd.colorscheme("carbonfox")
 	end,
 }
