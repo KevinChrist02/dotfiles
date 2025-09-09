@@ -1,8 +1,6 @@
-@import url("./gruvbox.css");
-
 * {
     border: none;
-    font-family: JetBrainsMono Nerd Font;
+    font-family: FiraCode Nerd Font;
     font-size: 16px;
     min-height: 22px;
     padding: 2px;
@@ -10,19 +8,23 @@
 
 window#waybar {
     background: transparent;
+    color: white;
 }
 
 #workspaces button {
+    color: white;
     padding: 0px 4px;
     margin: 0 4px;
-    color: @base;
 }
 
 
 #clock,
 #network,
 #language,
+#cpu,
+#memory,
+#custom-power,
 #wireplumber {
-    padding: 0px 20px;
-    color: @base
+    padding: 10px;
+    color: white;
 }
