@@ -5,6 +5,9 @@ export ZSH="$HOME/.oh-my-zsh"
 export EDITOR=nvim
 export VISUAL=nvim
 
+# Go Path
+export PATH="$PATH:$(go env GOBIN):$(go env GOPATH)/bin"
+
 # Theme
 ZSH_THEME="robbyrussell"
 
@@ -25,5 +28,8 @@ plugins=(
 # Alias
 alias update="sudo pacman -Syu"
 alias get="sudo pacman -S"
+
+
+eval "$(zoxide init zsh)"
 
 source $ZSH/oh-my-zsh.sh
