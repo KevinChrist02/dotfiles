@@ -1,6 +1,9 @@
 # Path to the omz
 export ZSH="$HOME/.oh-my-zsh"
 
+# Default Shell Editor
+export EDITOR=nvim
+export VISUAL=nvim
 
 # Theme
 ZSH_THEME="robbyrussell"
