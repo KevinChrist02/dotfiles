@@ -6,11 +6,8 @@ return {
 		"saghen/blink.cmp",
 	},
 	config = function()
-		vim.lsp.enable("pylsp")
 		vim.lsp.enable("lua_ls")
-		vim.lsp.enable("emmet_ls")
 		vim.lsp.enable("cssls")
-		vim.lsp.enable("html")
 		vim.lsp.enable("gopls")
 		vim.lsp.enable("marksman")
 
