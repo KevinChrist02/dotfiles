@@ -1,3 +1,5 @@
+config-file = ./keybinds-config
+
 theme=Builtin Solarized Dark
 font-size=16
 font-family="Fira Code"
