@@ -1,12 +1,20 @@
 return {
-	"echasnovski/mini.nvim",
+	"nvim-mini/mini.nvim",
+	version = false,
 	config = function()
-		-- statusline setup
-		local statusline = require("mini.statusline")
-		statusline.setup({ use_icons = true })
-
-		-- other plugins from mini
-		require("mini.icons").setup()
+		--require("mini").setup({})
 		require("mini.pairs").setup()
+
+		-- Notification
+		require("mini.notify").setup({
+			lsp_progress = {
+				duration_last = 200,
+			},
+			window = {
+				max_width_share = 0.25,
+			},
+		})
+
+		require("mini.statusline").setup()
 	end,
 }
