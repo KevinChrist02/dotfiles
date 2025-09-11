@@ -25,10 +25,15 @@ plugins=(
     zsh-syntax-highlighting
 )
 
-# Alias
+# Some Aliases 
+
+# Pacman 
 alias update="sudo pacman -Syu"
 alias get="sudo pacman -S"
-
+# Tailscale
+alias tss="sudo tailscale status"
+alias tsd="sudo tailscale down"
+alias tsu="sudo tailscale up"
 
 eval "$(zoxide init zsh)"
 
