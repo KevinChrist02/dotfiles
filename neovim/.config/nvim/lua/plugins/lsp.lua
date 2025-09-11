@@ -6,7 +6,18 @@ return {
 		"saghen/blink.cmp",
 	},
 	config = function()
+		-- telling the  lua lsp about the global vim
+		vim.lsp.config("lua_ls", {
+			settings = {
+				Lua = {
+					diagnostics = {
+						globals = { "vim" },
+					},
+				},
+			},
+		})
 		vim.lsp.enable("lua_ls")
+
 		vim.lsp.enable("cssls")
 		vim.lsp.enable("gopls")
 		vim.lsp.enable("marksman")
