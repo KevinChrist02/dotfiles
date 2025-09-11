@@ -54,6 +54,11 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 vim.opt.conceallevel = 2
 
+vim.diagnostic.enable = true
+vim.diagnostic.config({
+	virtual_text = true,
+})
+
 -- Setup lazy.nvim
 require("lazy").setup({
 	spec = {
