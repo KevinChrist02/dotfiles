@@ -40,7 +40,7 @@ return {
 				-- | <number> | a hard coded width value |
 				-- | full     | full width of the window |
 				-- If a float < 1 is provided it is treated as a percentage of available window space.
-				width = "80",
+				width = 80,
 				-- Amount of margin to add to the left of dash.
 				-- If a float < 1 is provided it is treated as a percentage of available window space.
 				left_margin = 0,
