@@ -1,22 +1,21 @@
 * {
-    border: none;
-    font-family: FiraCode Nerd Font;
-    font-size: 16px;
-    min-height: 22px;
-    padding: 2px;
+  border: none;
+  font-family: FiraCode Nerd Font;
+  font-size: 16px;
+  min-height: 22px;
+  padding: 2px;
 }
 
 window#waybar {
-    background: transparent;
-    color: white;
+  background: transparent;
+  color: white;
 }
 
 #workspaces button {
-    color: white;
-    padding: 0px 4px;
-    margin: 0 4px;
+  color: white;
+  padding: 0px 4px;
+  margin: 0 4px;
 }
-
 
 #clock,
 #network,
@@ -25,6 +24,6 @@ window#waybar {
 #memory,
 #custom-power,
 #wireplumber {
-    padding: 10px;
-    color: white;
+  padding: 10px;
+  color: white;
 }
