@@ -5,6 +5,7 @@ return {
 			go = { "golangci-lint" },
 			markdown = { "markdownlint" },
 			html = { "htmlhint" },
+			rust = { "bacon" },
 		}
 	end,
 }
