@@ -35,6 +35,8 @@ alias tss="sudo tailscale status"
 alias tsd="sudo tailscale down"
 alias tsu="sudo tailscale up"
 
+alias ff="fastfetch"
+
 eval "$(zoxide init zsh)"
 
 source $ZSH/oh-my-zsh.sh
