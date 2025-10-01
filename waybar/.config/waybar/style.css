@@ -1,9 +1,10 @@
 * {
   border: none;
-  font-family: FiraCode Nerd Font;
-  font-size: 16px;
-  min-height: 22px;
-  padding: 2px;
+  font-family: Terminess Nerd Font Mono;
+  font-size: 18px;
+  color: #fdf6e3;
+  min-height: 0px;
+  margin: 2px 6px;
 }
 
 window#waybar {

@@ -29,12 +29,11 @@
     },
 
     "network": {
-        "format-wifi": "  {essid}",
+        "format-wifi": " ",
         "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
         "format-linked": "{ifname} (No IP) ",
         "format": "",
         "format-disconnected": "",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}",
         "on-click": "ghostty -e nmtui",
         "tooltip-format": " {bandwidthUpBits}  {bandwidthDownBits}\n{ifname}\n{ipaddr}/{cidr}\n",
         "tooltip-format-wifi": " {essid} {frequency}MHz\nStrength: {signaldBm}dBm ({signalStrength}%)\nIP: {ipaddr}/{cidr}\n {bandwidthUpBits}  {bandwidthDownBits}",
@@ -48,7 +47,7 @@
     },
 
     "hyprland/language":{
-        "format": "  {short}",
+        "format": "{short}",
     },
 
     "wireplumber": {
@@ -71,8 +70,8 @@
     },
 
     "clock": {
-        "format": "󰥔  {:%H:%M}",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "today-format": "<b>{}</b>"
+        "format": "{:%H:%M}",
+        "today-format": "<b>{}</b>",
+        "tooltip": false
     },
 }
