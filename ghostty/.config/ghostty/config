@@ -5,7 +5,7 @@ font-size=18
 font-family="Terminess Nerd Font Mono"
 cursor-style=bar
 cursor-style-blink=true
-
-background-opacity= 1
+background= #040A08
+background-opacity= 0.6
 window-padding-x = 6
 window-padding-y = 6
