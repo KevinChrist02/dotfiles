@@ -16,7 +16,7 @@ zstyle ':omz:update' mode reminder
 
 # Library Settings
 DISABLE_LS_COLORS=false
-ENABLE_CORRECTION=true
+ENABLE_CORRECTION=false
 
 # Plugins
 plugins=(
