@@ -3,9 +3,9 @@
     "position": "top",
     "reload_style_on_change": true,
     "spacing": 5,
-    "modules-left": ["clock","tray"],
+    "modules-left": ["clock", "cpu","memory", "disk"],
     "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["network","hyprland/language","wireplumber","custom/power"],
+    "modules-right": ["network","bluetooth", "hyprland/language","wireplumber","custom/power"],
 
     "hyprland/workspaces":{
         "format": "{icon}",
@@ -23,36 +23,37 @@
         }
     },
 
-    "tray":{
-        "icon-size": 15,
-        "spacing": 5,
-    },
-
     "network": {
-        "format-wifi": " ",
-        "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
-        "format-linked": "{ifname} (No IP) ",
+        "format-wifi": "  {essid}",
         "format": "",
         "format-disconnected": "",
         "on-click": "ghostty -e nmtui",
         "tooltip-format": " {bandwidthUpBits}  {bandwidthDownBits}\n{ifname}\n{ipaddr}/{cidr}\n",
         "tooltip-format-wifi": " {essid} {frequency}MHz\nStrength: {signaldBm}dBm ({signalStrength}%)\nIP: {ipaddr}/{cidr}\n {bandwidthUpBits}  {bandwidthDownBits}",
-        "interval": 10
+        "interval": 10,
     },
 
     "custom/power": {
-        "format": " 󰐥 ",
+        "format": "⏻",
         "tooltip": false,
-        "on-click": "wlogout"
+        "on-click": "wlogout",
+    },
+
+    "bluetooth": {
+        "format": " {status} ",
+	    "format-disabled": "󰂲", 
+	    "format-connected": " {device_alias}",
+        "tooltip-format": "{device_alias}",
+        "on-click": "ghostty -e bluetui",
     },
 
     "hyprland/language":{
-        "format": "{short}",
+        "format": " {short}",
     },
 
     "wireplumber": {
         "on-click": "pavucontrol",
-        "format": "{icon} {volume}%",
+        "format": "{icon}{volume}%",
         "format-muted": " ",
         "format-source": "",
         "format-source-muted": "",
@@ -70,8 +71,28 @@
     },
 
     "clock": {
-        "format": "{:%H:%M}",
-        "today-format": "<b>{}</b>",
-        "tooltip": false
+        "format": "{:%H:%M | %d.%m.%y} ",
+        "tooltip": true,
+        "tooltip-format": "{calendar}",
+        "calender": {
+            "mode": "year",
+            "mode-mon-col": 3,
+            "weeks-pos": "left",
+        },
+    },
+
+    "cpu": {
+        "interval": 10,
+        "format": " {avg_frequency}%",
+        "on-click": "ghostty -e btop",
+    },
+
+    "disk": {
+        "invterval": 30,
+        "format": " {free}",
+    },
+    "memory": {
+        "interval": 30,
+        "format": " {used}GiB/{total}GiB",
     },
 }
