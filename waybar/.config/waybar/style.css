@@ -39,30 +39,30 @@ tooltip {
 }
 
 #clock {
-  background: #b58900;
+  color: #b58900;
 }
 
 #cpu,
 #memory,
 #disk {
-  background: #859900;
+  color: #859900;
 }
 
 #network {
-  background: #2aa198;
+  color: #2aa198;
 }
 
 #bluetooth {
-  background: #268bd2;
+  color: #268bd2;
 }
 
 #language {
-  background: #6c71c4;
+  color: #6c71c4;
 }
 #wireplumber {
-  background: #d33682;
+  color: #d33682;
 }
 
 #custom-power {
-  background: #dc322f;
+  color: #dc322f;
 }
