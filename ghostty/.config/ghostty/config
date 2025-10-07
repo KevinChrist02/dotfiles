@@ -1,7 +1,7 @@
 config-file = ./keybinds-config
 
 theme=Builtin Solarized Dark
-font-size=18
+font-size=16
 font-family="Terminess Nerd Font Mono"
 cursor-style=bar
 cursor-style-blink=true

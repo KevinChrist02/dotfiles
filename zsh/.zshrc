@@ -6,7 +6,7 @@ export EDITOR=nvim
 export VISUAL=nvim
 
 # Go Path
-export PATH="$PATH:$(go env GOBIN):$(go env GOPATH)/bin"
+#export PATH="$PATH:$(go env GOBIN):$(go env GOPATH)/bin"
 
 # Theme
 ZSH_THEME="half-life"
@@ -36,7 +36,5 @@ alias tsd="sudo tailscale down"
 alias tsu="sudo tailscale up"
 
 alias ff="fastfetch"
-
-eval "$(zoxide init zsh)"
 
 source $ZSH/oh-my-zsh.sh
