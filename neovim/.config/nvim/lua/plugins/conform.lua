@@ -7,7 +7,6 @@ return {
 				css = { "prettier" },
 				html = { "prettier" },
 				go = { "gofmt" },
-				rust = { "rustfmt" },
 			},
 			format_on_save = {
 				timeout_ms = 500,
