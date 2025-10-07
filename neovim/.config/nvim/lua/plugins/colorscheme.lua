@@ -1,8 +1,8 @@
 return {
-	"craftzdog/solarized-osaka.nvim",
+    "EdenEast/nightfox.nvim",
 	lazy = false,
 	priority = 1000,
 	config = function()
-		vim.cmd([[colorscheme solarized-osaka]])
+		vim.cmd([[colorscheme dayfox]])
 	end,
 }

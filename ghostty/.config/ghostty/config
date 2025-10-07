@@ -1,10 +1,14 @@
 config-file = ./keybinds-config
 
-theme=Builtin Solarized Dark
+theme=Dayfox
 font-size=16
 font-family="Terminess Nerd Font Mono"
+
 cursor-style=bar
 cursor-style-blink=true
-background-opacity= 0.8
+
+background-opacity= 1
+
 window-padding-x = 6
 window-padding-y = 6
+window-decoration= none
