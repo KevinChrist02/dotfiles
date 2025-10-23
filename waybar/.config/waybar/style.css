@@ -3,10 +3,10 @@
   border-radius: 6px;
   font-family: Terminess Nerd Font Mono;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   background: transparent;
-  color: #eee8d5;
   margin: 2px;
+  color: white;
 }
 
 tooltip {
@@ -15,14 +15,7 @@ tooltip {
 }
 
 #clock,
-#cpu,
-#memory,
-#disk {
-  padding: 0px 12px;
-}
-
 #network,
-#bluetooth,
 #language,
 #wireplumber,
 #custom-power {
@@ -32,37 +25,5 @@ tooltip {
 #workspaces button {
   padding: 0px 12px;
   margin: 0;
-}
 
-#workspaces button.active {
-  background: #dc322f;
-}
-
-#clock {
-  color: #b58900;
-}
-
-#cpu,
-#memory,
-#disk {
-  color: #859900;
-}
-
-#network {
-  color: #2aa198;
-}
-
-#bluetooth {
-  color: #268bd2;
-}
-
-#language {
-  color: #6c71c4;
-}
-#wireplumber {
-  color: #d33682;
-}
-
-#custom-power {
-  color: #dc322f;
 }
