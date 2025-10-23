@@ -1,6 +1,6 @@
 config-file = ./keybinds-config
 
-theme=0x96f
+theme= Dracula
 font-size=16
 font-family="Terminess Nerd Font Mono"
 
@@ -12,3 +12,7 @@ background-opacity= 0
 window-padding-x = 6
 window-padding-y = 6
 window-decoration= none
+
+##ssh config
+shell-integration-features = ssh-terminfo
+shell-integration-features = ssh-env
