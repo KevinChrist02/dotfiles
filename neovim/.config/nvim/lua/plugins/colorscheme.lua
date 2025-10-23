@@ -1,8 +1,7 @@
 return {
-    "craftzdog/solarized-osaka.nvim",
-    lazy = false,
+    "Mofiqul/dracula.nvim",
     priority = 1000,
     config = function()
-        vim.cmd([[colorscheme solarized-osaka]])
+        vim.cmd('colorscheme dracula')
     end,
 }
