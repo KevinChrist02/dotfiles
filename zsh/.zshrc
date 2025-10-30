@@ -1,6 +1,6 @@
 # Path to the omz
 export ZSH="$HOME/.oh-my-zsh"
-
+export cargo="/home/whoiskevin/.cargo/bin"
 # Default Shell Editor
 export EDITOR=nvim
 export VISUAL=nvim
