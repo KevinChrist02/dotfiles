@@ -2,10 +2,14 @@
     "layer": "top",
     "position": "top",
     "reload_style_on_change": true,
-    "spacing": 5,
-    "modules-left": ["clock"],
+    "fixed-center": true,
+    "spacing": 2,
+    "modules-left": ["clock", "tray"],
     "modules-center": ["hyprland/workspaces"],
     "modules-right": ["network","hyprland/language","wireplumber","custom/power"],
+    "margin-top": 4 ,
+    "margin-left": 8 ,
+    "margin-right": 8 ,
 
     "hyprland/workspaces":{
         "format": "{icon}",
@@ -39,7 +43,7 @@
     },
 
     "wireplumber": {
-        "on-click": "pwvucontrol",
+        "on-click": "ghostty -e wiremix",
         "format": "{icon}{volume}%",
         "format-muted": " ",
         "format-source": "",
@@ -61,6 +65,7 @@
         "format": "{:%H:%M | %d.%m.%y} ",
         "tooltip": true,
         "tooltip-format": "{calendar}",
+        "on-click": "ghostty -e calcure",
         "calender": {
             "mode": "year",
             "mode-mon-col": 3,

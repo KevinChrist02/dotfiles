@@ -1,13 +1,13 @@
 config-file = ./keybinds-config
 
-theme= Dracula
+theme= Gruvbox Dark 
 font-size=16
 font-family="Terminess Nerd Font Mono"
 
 cursor-style=bar
 cursor-style-blink=true
 
-background-opacity= 0
+background-opacity= 0.4
 
 window-padding-x = 6
 window-padding-y = 6

@@ -1,7 +1,7 @@
 return {
-    "Mofiqul/dracula.nvim",
-    priority = 1000,
-    config = function()
-        vim.cmd('colorscheme dracula')
-    end,
+	"ellisonleao/gruvbox.nvim",
+	priority = 1000,
+	config = function()
+		vim.cmd("colorscheme gruvbox")
+	end,
 }

@@ -2,16 +2,24 @@
   border: none;
   border-radius: 6px;
   font-family: Terminess Nerd Font Mono;
+  font-size: 18px;
   font-weight: 500;
-  font-size: 16px;
-  background: transparent;
-  margin: 2px;
+  min-height: 0;
+  padding: 2px;
   color: white;
 }
 
+window#waybar {
+  background: transparent;
+}
+
 tooltip {
-  background: #002b36;
-  color: white;
+  background: #689d6a;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+tooltip label {
+  color: black;
 }
 
 #clock,
@@ -24,6 +32,9 @@ tooltip {
 
 #workspaces button {
   padding: 0px 12px;
-  margin: 0;
+  margin: 2px;
+}
 
+#workspaces button.active {
+  background: #076678;
 }

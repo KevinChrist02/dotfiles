@@ -1,4 +1,4 @@
 return {
-	"rust-lang/rust.vim",
+	"xiyaowong/transparent.nvim",
 	config = function() end,
 }
