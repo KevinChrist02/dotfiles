@@ -10,6 +10,7 @@ return {
 				javascript = { "prettier" },
 				typescript = { "prettier" },
 				toml = { "taplo" },
+				python = { "black" },
 			},
 			format_on_save = {
 				timeout_ms = 500,

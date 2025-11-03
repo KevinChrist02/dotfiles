@@ -8,6 +8,8 @@ return {
 			go = { "golangci-lint" },
 			javascript = { "eslint_d" },
 			typescript = { "eslint_d" },
+			docker = { "hadolint" },
+			python = { "pylint" },
 		}
 	end,
 }

@@ -26,6 +26,9 @@ return {
 		vim.lsp.enable("gopls")
 		vim.lsp.enable("ts_ls")
 		vim.lsp.enable("taplo")
+		vim.lsp.enable("docker_compose_language_service")
+		vim.lsp.enable("docker_language_server")
+		vim.lsp.enable("pyright")
 
 		vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 		vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
