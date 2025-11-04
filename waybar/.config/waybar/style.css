@@ -1,25 +1,35 @@
 * {
   border: none;
-  border-radius: 6px;
-  font-family: Terminess Nerd Font Mono;
+  border-radius: 8px;
+  font-family: JetBrainsMono Nerd Font;
   font-size: 18px;
   font-weight: 500;
   min-height: 0;
   padding: 2px;
-  color: white;
+  margin-top: 2px;
+  color: #5c6a72;
 }
 
 window#waybar {
   background: transparent;
 }
 
+.modules-left,
+.modules-center,
+.modules-right {
+  background: #fdf6e3;
+  border: 1px solid #5c6a72;
+  box-shadow: 10px 10px;
+}
+
 tooltip {
-  background: #689d6a;
+  background: #fdf6e3;
   border-radius: 12px;
-  border: 1px solid black;
+  border: 1px solid #5c6a72;
 }
 tooltip label {
-  color: black;
+  color: #5c6a72;
+  font-weight: 400;
 }
 
 #clock,
@@ -27,14 +37,14 @@ tooltip label {
 #language,
 #wireplumber,
 #custom-power {
-  padding: 0px 12px;
+  padding: 0px 2rem;
 }
 
 #workspaces button {
-  padding: 0px 12px;
-  margin: 2px;
+  padding: 0px 1rem;
+  margin: 0.4rem;
 }
 
 #workspaces button.active {
-  background: #076678;
+  background: #eaedc8;
 }

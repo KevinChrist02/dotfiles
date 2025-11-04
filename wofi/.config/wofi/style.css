@@ -1,8 +1,9 @@
 window {
   margin: 0px;
-  background-color: #073642;
-  border-radius: 0px;
-  color: #eee8d5;
+  background-color: #fdf6e3;
+  border-radius: 12px;
+  border: 1px solid #5c6a72;
+  color: #5c6a72;
   font-family: "JetBrainsMono Nerd Font";
   font-size: 18px;
 }
@@ -12,23 +13,25 @@ window {
   border-radius: 0px;
   border: none;
   border-radius: 0px;
-  color: #eee8d5;
-  background-color: #073642;
+  color: #5c6a72;
+  background-color: #fdf6e3;
 }
 
 #inner-box {
   margin: 5px;
   border: none;
-  color: #eee8d5;
-  background-color: #073642;
-  border-radius: 0px;
+  color: #5c6a72;
+  background-color: #fdf6e3;
+  border-radius: 12px;
+  border: 1px solid #5c6a72;
 }
 
 #outer-box {
   margin: 15px;
-  border: none;
-  color: #eee8d5;
-  background-color: #073642;
+  border: 1px solid #5c6a72;
+  border-radius: 12px;
+  color: #5c6a72;
+  background-color: #fdf6e3;
 }
 
 #scroll {
@@ -39,12 +42,12 @@ window {
 #text {
   margin: 5px;
   border: none;
-  color: #eee8d5;
+  color: #5c6a72;
 }
 
 #entry:selected {
-  color: #eee8d5;
-  background-color: #586e75;
-  border-radius: 0px;
+  color: #5c6a72;
+  background-color: #eaedc8;
+  border-radius: 12px;
   outline: none;
 }

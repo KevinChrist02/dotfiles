@@ -39,12 +39,12 @@
     },
 
     "hyprland/language":{
-        "format": " {short}",
+        "format": "  {short}",
     },
 
     "wireplumber": {
         "on-click": "ghostty -e wiremix",
-        "format": "{icon}{volume}%",
+        "format": "{icon} {volume}%",
         "format-muted": " ",
         "format-source": "",
         "format-source-muted": "",

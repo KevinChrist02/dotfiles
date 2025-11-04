@@ -1,13 +1,13 @@
 config-file = ./keybinds-config
 
-theme= Gruvbox Dark 
+theme= Everforest Light Med 
 font-size=16
-font-family="Terminess Nerd Font Mono"
+font-family="JetBrainsMono Nerd Font"
 
 cursor-style=bar
 cursor-style-blink=true
 
-background-opacity= 0.4
+background-opacity= 1 
 
 window-padding-x = 6
 window-padding-y = 6
