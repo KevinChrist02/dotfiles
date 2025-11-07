@@ -5,11 +5,7 @@ return {
 			markdown = { "markdownlint" },
 			html = { "htmlhint" },
 			css = { "stylelint" },
-			go = { "golangci-lint" },
-			javascript = { "eslint_d" },
-			typescript = { "eslint_d" },
-			docker = { "hadolint" },
-			python = { "pylint" },
+			rust = { "bacon" },
 		}
 	end,
 }

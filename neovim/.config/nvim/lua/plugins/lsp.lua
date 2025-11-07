@@ -17,18 +17,13 @@ return {
 			},
 		})
 		vim.lsp.enable("lua_ls")
-
-		vim.lsp.enable("cssls")
-		vim.lsp.enable("marksman")
 		vim.lsp.enable("html")
+		vim.lsp.enable("cssls")
 		vim.lsp.enable("emmet_ls")
 		vim.lsp.enable("astro")
-		vim.lsp.enable("gopls")
-		vim.lsp.enable("ts_ls")
+		vim.lsp.enable("marksman")
 		vim.lsp.enable("taplo")
-		vim.lsp.enable("docker_compose_language_service")
-		vim.lsp.enable("docker_language_server")
-		vim.lsp.enable("pyright")
+		vim.lsp.enable("rust_analyzer")
 
 		vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 		vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})

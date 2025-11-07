@@ -6,11 +6,8 @@ return {
 				lua = { "stylua" },
 				css = { "prettier" },
 				html = { "prettier" },
-				go = { "gofumpt" },
-				javascript = { "prettier" },
-				typescript = { "prettier" },
 				toml = { "taplo" },
-				python = { "black" },
+				rust = { "rustfmt" },
 			},
 			format_on_save = {
 				timeout_ms = 500,
