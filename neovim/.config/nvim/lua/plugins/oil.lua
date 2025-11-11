@@ -1,14 +1,18 @@
 return {
 	"stevearc/oil.nvim",
-	dependencies = "echasnovski/mini.icons",
+	dependencies = { "nvim-mini/mini.icons", opts = {} },
 	lazy = false,
 	config = function()
 		require("oil").setup({
-			default_file_explorer = false,
+			default_file_explorer = true,
+
+			columns = {
+				"icons",
+			},
 
 			vim.keymap.set("n", "<leader>e", require("oil").toggle_float),
 
-			skip_confirm_for_simple_edits = false,
+			skip_confirm_for_simple_edits = true,
 
 			-- floating window config
 			float = {

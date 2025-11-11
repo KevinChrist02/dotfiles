@@ -1,23 +1,30 @@
 return {
 	"nvim-treesitter/nvim-treesitter",
+	lazy = false,
+	branch = "main",
 	build = ":TSUpdate",
 	config = function()
-		require("nvim-treesitter.configs").setup({
-			ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "markdown", "markdown_inline", "ruby", "python" },
-			auto_install = true,
+		require("nvim-treesitter").setup({
 			highlight = {
 				enable = true,
-				disable = function(lang, buf)
-					local max_filesize = 100 * 1024 -- 100 KB
-					local ok, stats = pcall(vim.loop.fs_stat, vim.api.nvim_buf_get_name(buf))
-					if ok and stats and stats.size > max_filesize then
-						return true
-					end
-				end,
-
-				-- Instead of true it can also be a list of languages
-				additional_vim_regex_highlighting = ruby,
+				disable = { "bash", "markdown" },
+				additional_vim_regex_highlighting = false,
 			},
+			indent = { enable = true },
+			ensure_installed = {
+				"lua",
+				"vim",
+				"vimdoc",
+				"javascript",
+				"typescript",
+				"html",
+				"css",
+				"json",
+				"markdown",
+				"bash",
+				"python",
+			},
+			auto_install = true,
 		})
 	end,
 }

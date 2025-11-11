@@ -1,7 +1,11 @@
 return {
-	"neanias/everforest-nvim",
-	priority = 1000,
+	"EdenEast/nightfox.nvim",
 	config = function()
-		vim.cmd("colorscheme everforest")
+		require("nightfox").setup({
+			options = {
+				transparent = true,
+			},
+		})
+		vim.cmd("colorscheme carbonfox")
 	end,
 }
