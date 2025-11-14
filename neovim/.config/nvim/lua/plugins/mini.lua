@@ -3,7 +3,7 @@ return {
 	version = false,
 	config = function()
 		require("mini.pairs").setup()
-		-- Notification
+
 		require("mini.notify").setup({
 			lsp_progress = {
 				duration_last = 200,
@@ -24,5 +24,7 @@ return {
 				animation = require("mini.indentscope").gen_animation.none(),
 			},
 		})
+
+		require("mini.statusline").setup()
 	end,
 }

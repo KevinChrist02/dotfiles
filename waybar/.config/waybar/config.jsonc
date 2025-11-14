@@ -2,14 +2,9 @@
     "layer": "top",
     "position": "top",
     "reload_style_on_change": true,
-    "fixed-center": true,
-    "spacing": 2,
-    "modules-left": ["clock", "tray"],
-    "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["network","hyprland/language","wireplumber","custom/power"],
-    "margin-top": 4 ,
-    "margin-left": 8 ,
-    "margin-right": 8 ,
+    "modules-left": ["hyprland/workspaces"],
+    "modules-right": ["clock", "hyprland/language","wireplumber", "network", "custom/power"],
+    "height": 30,
 
     "hyprland/workspaces":{
         "format": "{icon}",
@@ -23,8 +18,7 @@
     },
 
     "network": {
-        "format": "",
-        "format-wifi": "",
+        "format": "Network: {essid}",
         "format-disconnected": "󱚵",
         "on-click": "ghostty -e impala",
         "tooltip-format": " {bandwidthUpBits}  {bandwidthDownBits}\n{ifname}\n{ipaddr}/{cidr}\n",
@@ -33,23 +27,21 @@
     },
 
     "custom/power": {
-        "format": "⏻",
+        "format": "󰐥",
         "tooltip": false,
-        "on-click": "wlogout",
+        "on-click":"ghostty -e shutdown -h now" 
     },
 
     "hyprland/language":{
-        "format": "  {short}",
+        "format": "Layout: {long}",
     },
 
     "wireplumber": {
         "on-click": "ghostty -e wiremix",
-        "format": "{icon} {volume}%",
-        "format-muted": " ",
+        "format": "Audio: {volume}%",
         "format-source": "",
         "format-source-muted": "",
-        "format-muted": "<span foreground='#fab387'> </span>",
-        "format-icons": [ "<span foreground='#fab387'></span>" ],
+        "format-muted": "",
         "format-icons": {
             "headphone": " ",
             "hands-free": " ",
@@ -62,7 +54,7 @@
     },
 
     "clock": {
-        "format": "{:%H:%M | %d.%m.%y} ",
+        "format": "{:%H:%M | %d.%m.%y}",
         "tooltip": true,
         "tooltip-format": "{calendar}",
         "on-click": "ghostty -e calcure",
