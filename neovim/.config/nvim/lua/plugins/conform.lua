@@ -6,8 +6,7 @@ return {
 				lua = { "stylua" },
 				css = { "prettier" },
 				html = { "prettier" },
-				toml = { "taplo" },
-				rust = { "rustfmt" },
+				javascript = { "prettier" },
 			},
 			format_on_save = {
 				timeout_ms = 500,

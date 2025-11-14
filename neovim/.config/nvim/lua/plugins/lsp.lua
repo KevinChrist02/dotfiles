@@ -22,8 +22,7 @@ return {
 		vim.lsp.enable("emmet_ls")
 		vim.lsp.enable("astro")
 		vim.lsp.enable("marksman")
-		vim.lsp.enable("taplo")
-		vim.lsp.enable("rust_analyzer")
+		vim.lsp.enable("ts_ls")
 
 		vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 		vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})

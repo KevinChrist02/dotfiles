@@ -5,7 +5,7 @@ return {
 			markdown = { "markdownlint" },
 			html = { "htmlhint" },
 			css = { "stylelint" },
-			rust = { "bacon" },
+			javascript = { "eslint_d" },
 		}
 	end,
 }

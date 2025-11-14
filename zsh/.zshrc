@@ -38,3 +38,4 @@ alias tsu="sudo tailscale up"
 alias ff="fastfetch"
 
 source $ZSH/oh-my-zsh.sh
+. "/home/whoiskevin/.deno/env"
