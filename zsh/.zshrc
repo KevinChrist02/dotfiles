@@ -39,3 +39,9 @@ alias ff="fastfetch"
 
 source $ZSH/oh-my-zsh.sh
 . "/home/whoiskevin/.deno/env"
+# bun completions
+[ -s "/home/whoiskevin/.bun/_bun" ] && source "/home/whoiskevin/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
